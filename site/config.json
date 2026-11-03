@@ -1,0 +1,34 @@
+{
+  "repo": "md-table-to-csv",
+  "hostname": "markdown.findfindata.com",
+  "brand": "Table Workshop",
+  "theme": "workshop",
+  "mark": "[|]",
+  "color": "#152626",
+  "en": {
+    "eyebrow": "02 / TABLE PROCESSING BENCH",
+    "title": "Keep the value. Lose the table syntax.",
+    "intro": "Extract a Markdown table into a CSV you can inspect. Keep decimal commas, escaped pipes and the distinction between a string and a number.",
+    "description": "Local Markdown table extraction and CSV export, with decimal-comma preservation and explicit parser limits.",
+    "panel_title": "A small export bench",
+    "panel_intro": "Python 3.11+, no external packages. Export one table or all supported tables. Original cell values are the default.",
+    "panel_body": "<pre><code>python md_table_csv.py examples/table-sample.md --list\npython md_table_csv.py examples/table-sample.md --table 1 --output out/revenue.csv</code></pre><p><a href=\"https://github.com/faigvain-ang/md-table-to-csv\">Clone the tool and synthetic examples</a>. No upload or cloud call.</p>",
+    "about": "<p>Table Workshop and Markdown Table to CSV are maintained under <strong>faigvain-ang</strong> by the team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. This connection is disclosed; these notes are not independent endorsements.</p><p><a href=\"https://www.kolmopdf.com/pdf-to-markdown\">KolmoPDF PDF to Markdown</a> is a related cloud conversion service. It uploads documents. Our open-source CLI only handles Markdown already on your computer: it neither calls that service nor reproduces its proprietary PDF parser. It does not perform OCR or fix financial data.</p>",
+    "notes_label": "Field notes",
+    "source_label": "Get the code on GitHub →",
+    "about_description": "Maintenance, product relationships and data handling at Table Workshop."
+  },
+  "es": {
+    "eyebrow": "02 / BANCO DE TRABAJO DE TABLAS",
+    "title": "Conserve el valor. Quite la sintaxis.",
+    "intro": "Extraiga una tabla Markdown a un CSV que pueda revisar. Conserve las comas decimales, las tuberías escapadas y la diferencia entre texto y número.",
+    "description": "Extracción local de tablas Markdown a CSV, conservando comas decimales y explicando los límites del analizador.",
+    "panel_title": "Un pequeño banco de exportación",
+    "panel_intro": "Python 3.11+, sin paquetes externos. Exporte una tabla o todas las compatibles. Por defecto conserva las cadenas de las celdas.",
+    "panel_body": "<pre><code>python md_table_csv.py examples/table-sample.md --list\npython md_table_csv.py examples/table-sample.md --table 1 --output out/revenue.csv</code></pre><p><a href=\"https://github.com/faigvain-ang/md-table-to-csv\">Descargue el código y los ejemplos sintéticos</a>. Sin cargas ni llamadas a la nube.</p>",
+    "about": "<p>Table Workshop y Markdown Table to CSV se mantienen bajo <strong>faigvain-ang</strong>, por el equipo que desarrolla herramientas relacionadas con Eqvero, KolmoPDF y KomoPDF. Declaramos esa conexión: no son recomendaciones independientes.</p><p><a href=\"https://www.kolmopdf.com/pdf-to-markdown\">KolmoPDF PDF a Markdown</a> es un servicio relacionado de conversión en la nube que carga documentos. Nuestro CLI abierto solo procesa Markdown ya guardado en su ordenador: no llama al servicio ni reproduce su analizador propietario. No hace OCR ni corrige cifras financieras.</p>",
+    "notes_label": "Notas prácticas",
+    "source_label": "Código en GitHub →",
+    "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Table Workshop."
+  }
+}
