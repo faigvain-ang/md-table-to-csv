@@ -16,7 +16,8 @@
     "about": "<p>Table Workshop and Markdown Table to CSV are maintained under <strong>faigvain-ang</strong> by the team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. This connection is disclosed; these notes are not independent endorsements.</p><p><a href=\"https://www.kolmopdf.com/pdf-to-markdown\">KolmoPDF PDF to Markdown</a> is a related cloud conversion service. It uploads documents. Our open-source CLI only handles Markdown already on your computer: it neither calls that service nor reproduces its proprietary PDF parser. It does not perform OCR or fix financial data.</p>",
     "notes_label": "Field notes",
     "source_label": "Get the code on GitHub →",
-    "about_description": "Maintenance, product relationships and data handling at Table Workshop."
+    "about_description": "Maintenance, product relationships and data handling at Table Workshop.",
+    "seo_title": "Markdown Table to CSV Converter"
   },
   "es": {
     "eyebrow": "02 / BANCO DE TRABAJO DE TABLAS",
@@ -29,6 +30,8 @@
     "about": "<p>Table Workshop y Markdown Table to CSV se mantienen bajo <strong>faigvain-ang</strong>, por el equipo que desarrolla herramientas relacionadas con Eqvero, KolmoPDF y KomoPDF. Declaramos esa conexión: no son recomendaciones independientes.</p><p><a href=\"https://www.kolmopdf.com/pdf-to-markdown\">KolmoPDF PDF a Markdown</a> es un servicio relacionado de conversión en la nube que carga documentos. Nuestro CLI abierto solo procesa Markdown ya guardado en su ordenador: no llama al servicio ni reproduce su analizador propietario. No hace OCR ni corrige cifras financieras.</p>",
     "notes_label": "Notas prácticas",
     "source_label": "Código en GitHub →",
-    "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Table Workshop."
-  }
+    "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Table Workshop.",
+    "seo_title": "Convertidor de tablas Markdown a CSV"
+  },
+  "root_seo_title": "Markdown Table to CSV / Tablas Markdown a CSV"
 }
