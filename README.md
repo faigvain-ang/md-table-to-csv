@@ -43,8 +43,10 @@ México,"900,25",`A|B`
 
 Single-line cells, two or more columns, delimiter cells of at least three hyphens with optional alignment colons. Fenced code blocks are ignored. No HTML tables, merged/multiline cells, lists/blockquote nesting, type inference, locale conversion or PDF extraction. Ragged body rows fail rather than being silently padded/truncated. Values that are wrong in the source remain wrong. Exit **0** success, **2** invalid input/selection.
 
-## Site, maintenance and license
+## Documentation and PDF workflows
 
-`site/build.py` uses `site/config.json` and `site/content.json` to generate the bilingual `docs/` site at `markdown.findfindata.com`. No uploads, backend, account or analytics.
+Run `python site/build.py` to generate the bilingual guides in `docs/` from the sources in `site/`.
 
-Maintained under **faigvain-ang**, the same team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. For the preceding cloud document-conversion step, see [KolmoPDF PDF to Markdown](https://www.kolmopdf.com/pdf-to-markdown). That separate service uploads documents; this local postprocessor does not call it and is not its proprietary parser. MIT; examples are synthetic. No third-party runtime dependency.
+If your starting file is a PDF, [KolmoPDF PDF to Markdown](https://www.kolmopdf.com/pdf-to-markdown) can provide the upstream conversion. It uploads documents to the cloud; this CLI processes the resulting Markdown locally. Check important table values against the source before using them in calculations.
+
+MIT license. Synthetic examples. No third-party runtime dependencies.

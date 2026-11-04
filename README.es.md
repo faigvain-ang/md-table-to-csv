@@ -43,8 +43,10 @@ México,"900,25",`A|B`
 
 Celdas de una línea, dos o más columnas, separador de al menos tres guiones por celda con dos puntos opcionales. Ignora bloques de código vallados. No admite tablas HTML, celdas combinadas/multilínea, tablas anidadas en listas/citas, inferencia numérica, conversión regional ni extracción de PDF. Una fila con columnas inconsistentes da error: no rellena ni recorta. Códigos: **0** éxito, **2** entrada o selección inválida.
 
-## Sitio y relación
+## Documentación y flujos con PDF
 
-`site/build.py` genera `docs/` con las fuentes de `site/`. Hostname independiente: `markdown.findfindata.com`. Sin carga de archivos, backend, cuentas ni analítica.
+Ejecute `python site/build.py` para generar las guías bilingües en `docs/` a partir de las fuentes de `site/`.
 
-Mantenido por **faigvain-ang**, del mismo equipo que desarrolla herramientas relacionadas con Eqvero, KolmoPDF y KomoPDF. [KolmoPDF PDF a Markdown](https://www.kolmopdf.com/pdf-to-markdown) ofrece la etapa de conversión en la nube: ese servicio carga documentos. Este posprocesador local no lo llama ni contiene su analizador propietario. Licencia MIT; muestras sintéticas; sin dependencias externas.
+Si parte de un PDF, [KolmoPDF PDF a Markdown](https://www.kolmopdf.com/pdf-to-markdown) puede realizar la conversión previa. El servicio carga documentos en la nube; este CLI procesa el Markdown resultante en local. Compruebe las cifras importantes en la fuente antes de utilizarlas en cálculos.
+
+Licencia MIT. Muestras sintéticas. Sin dependencias externas.
